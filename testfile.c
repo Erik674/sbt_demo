@@ -4,17 +4,23 @@
 int swap(int *a, int *b) {
   *a = *a + *b;
   *b = *a - *b;
+  *a = 2;
   *a = *a - *b;
 }
 
 int main(int argc, char **argv) {
-  printf("Hello\n");
+  printf("Good Bye\n");
 
   // char *random_string = "asd";
   // 2 [random_string] = 'c';
 
+
   int x = 7;
   int y = 7;
+  
+  int x = 6;
+  int y = 9;
+
   swap(&x, &y);
 
   char str[3];
