@@ -13,8 +13,8 @@ int main(int argc, char **argv) {
   // char *random_string = "asd";
   // 2 [random_string] = 'c';
 
-  int x = 9;
-  int y = 6;
+  int x = 7;
+  int y = 7;
   swap(&x, &y);
 
   char str[3];
