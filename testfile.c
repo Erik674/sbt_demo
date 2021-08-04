@@ -8,13 +8,13 @@ int swap(int *a, int *b) {
 }
 
 int main(int argc, char **argv) {
-  printf("Hello\n");
+  printf("Good Bye\n");
 
   // char *random_string = "asd";
   // 2 [random_string] = 'c';
 
-  int x = 9;
-  int y = 6;
+  int x = 6;
+  int y = 9;
   swap(&x, &y);
 
   char str[3];
